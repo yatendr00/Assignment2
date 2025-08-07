@@ -1,0 +1,86 @@
+  <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <style>
+     body{
+      color: #000;
+      background-color: rgb(33, 190, 221);
+      align-items: center;
+     } 
+
+     .Traffic-light {
+        background-color: #000;
+        width: 100px;
+        height: 300px;
+        border-radius: 20px;
+        align-content: center;
+     }
+     .layout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+     }
+     .traffic-light-red {
+        background-color: red;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 10px auto;
+     }
+      .traffic-light-yellow {
+          background-color: yellow;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          margin: 10px auto;
+      }
+      .traffic-light-green {
+          background-color: rgb(59, 235, 59);
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          margin: 10px auto;
+      }
+      .traffic-light-pole {
+        width: 25px;
+        height: 300px;
+        background-color: #110f0f;
+        margin: 0 auto;
+        position: relative;
+      }
+       .traffic-light-pole-bottom {
+        width: 50px;
+        height: 60px;
+        background-color: #110f0f;
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+       
+  
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic Light</title>
+ </head>
+ <body>
+    <div class="layout">
+  <div class="Traffic-light">
+    <div class="traffic-light-red" id="traffic-light-red"></div>
+    <div class="traffic-light-yellow" id="traffic-light-yellow"></div>
+    <div class="traffic-light-green" id="traffic-light-green"></div>
+
+  <br>
+     
+    <div class="traffic-light-pole">
+    <div class="traffic-light-pole-bottom" id="traffic-light-pole-bottom"></div>
+
+  </div>
+  </div>
+  </div>
+ </body>
+ </html>
+
+ 
